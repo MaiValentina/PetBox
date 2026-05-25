@@ -1,11 +1,9 @@
-# PetBox — Plataforma de microservicios
+# PetBox
 
 Sistema full-stack basado en **10 microservicios Spring Boot** independientes, cada uno con su propia base de datos MySQL. Cubre el dominio completo de una tienda especializada en mascotas: usuarios, mascotas, suscripciones a cajas de productos personalizadas, inventario, pedidos, pagos, envíos, notificaciones y reseñas.
 
 ## Equipo
 
-| Integrante | Correo |
-|---|---|
 | Mai Olivares | mv.olivares@duocuc.cl |
 | Leon Artiaga | le.artiaga@duocuc.cl |
 | Joaquin Olivos | jo.olivos@duocuc.cl |
@@ -25,15 +23,3 @@ Sistema full-stack basado en **10 microservicios Spring Boot** independientes, c
 | resenas | 8089 | petbox_resenas |
 | usuarios | 8090 | petbox_usuarios |
 
-## Requisitos
-
-- Java 21
-- Maven 3.9+
-- MySQL en localhost:3306 (Laragon, usuario `root` sin contraseña)
-
-## Cómo ejecutar un microservicio
-
-```bash
-cd mascotas
-./mvnw spring-boot:run
-```
